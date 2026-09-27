@@ -1,4 +1,4 @@
-FastAPI RAG Pipeline
+
 A production-grade, containerized Retrieval-Augmented Generation (RAG) microservice built with FastAPI, LangChain, and Docker. This project implements a robust backend architecture designed to ingest local knowledge bases, execute local HuggingFace embedding calculations, and integrate cloud-based LLM inference via OpenRouter with strict Pydantic JSON schema validation. This pipeline is adapted from the TensorTonic project section where you can find it but with To Do sections to complete the Project.
 
 This implementation leverages the TensorTonics existing RAG pipeline architecture, adapting it for scalable deployment, reliable error handling, and high-performance asynchronous API routing.
